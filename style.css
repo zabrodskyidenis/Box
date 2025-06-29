@@ -183,7 +183,7 @@ body {
   margin: 50px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     body {
         font-size: 0.9em;
     }
@@ -212,5 +212,18 @@ body {
       display: block;
     } 
     
+    .gg{ 
+      flex-direction: column;
+      width: 250px;
+
+    }
+
+    .gg img {
+      width: 100%;
+    }
+
+    .block {
+      flex-direction: column;
+    }
 }
 
